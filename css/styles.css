@@ -5,20 +5,44 @@
 	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
 }
 
+
+/*Navigation bar features*/
+nav{
+	float: left;
+	
+}
+
 ul{
 	list-style-type: none;
-	float: left;
+	margin-top: -20px;
+	
 }
 
 li{
 	float: left;
 	display: block;
 	padding: 100px;
+	font-size: 2em;
+	margin: 10px;
+	
 }
+
+a:link{
+	text-decoration: none;
+	color: gray;
+	padding: 30px;
+}
+
+a:hover{
+	background-color: #FBF4E4;
+	position: sticky;
+}
+/*---END OF NAV BAR---*/
 
 h1{
 	font-size: 6em;
 	font-weight:bolder;
+	clear: both;
 }
 
 h2{
@@ -29,27 +53,28 @@ h2{
 
 th{
 	text-align: left;
-	
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-img{
-	width: 500px;
-}
 
+/*Adds background color to ever other table row*/
 tr:nth-child(even){
 	background-color:#FBF4E4;
 }
 
 table{
 	border-collapse: collapse;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid grey; /*Table bottom border*/
 }
 
+/*Table border left and right*/
 tr{
 	border-left: 1px solid grey;
 	border-right: 1px solid grey;
 }
 
+/*Adds border on top of first data row, not above images*/
 tr:nth-child(2){
 	border-top: 1px solid grey;
 }
@@ -61,11 +86,25 @@ tr:nth-child(1){
 td{
 	border-left: 1px solid grey;
 	border-right: 1px solid grey;
-	padding: 5px;
+	padding: 7px;
+	padding-left: 50px;
 }
 
 .image{
+	border:none;
+}
+
+.image img{
 	border: none;
+	width: 500px;
+}
+
+.logo{
+	border: none;
+}
+
+.logo img{
+	width: 100px;
 }
 
 span{
