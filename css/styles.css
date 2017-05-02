@@ -5,14 +5,25 @@
 	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
 }
 
+ul{
+	list-style-type: none;
+	float: left;
+}
+
+li{
+	float: left;
+	display: block;
+	padding: 100px;
+}
+
 h1{
 	font-size: 6em;
-	font-weight: 900;
+	font-weight:bolder;
 }
 
 h2{
 	font-size: 5em;
-	margin-top: -50px;
+	margin-top: -70px;
 	font-weight: 100;
 }
 
@@ -25,6 +36,39 @@ img{
 	width: 500px;
 }
 
-.logo img{
-	width: 100px;
+tr:nth-child(even){
+	background-color:#FBF4E4;
+}
+
+table{
+	border-collapse: collapse;
+	border-bottom: 1px solid grey;
+}
+
+tr{
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+}
+
+tr:nth-child(2){
+	border-top: 1px solid grey;
+}
+
+tr:nth-child(1){
+	border: 0px;
+}
+
+td{
+	border-left: 1px solid grey;
+	border-right: 1px solid grey;
+	padding: 5px;
+}
+
+.image{
+	border: none;
+}
+
+span{
+	font-weight: 100;
+	font-style: italic;
 }
