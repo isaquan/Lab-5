@@ -79,6 +79,7 @@ tr:nth-child(2){
 	border-top: 1px solid grey;
 }
 
+/*Removes border from first row of table = images row*/
 tr:nth-child(1){
 	border: 0px;
 }
@@ -103,10 +104,12 @@ td{
 	border: none;
 }
 
+/*Makes logo size smaller*/
 .logo img{
 	width: 100px;
 }
 
+/*Edits parenthesis in <th>*/
 span{
 	font-weight: 100;
 	font-style: italic;
