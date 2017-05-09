@@ -9,6 +9,7 @@
 
 <body>
 
+<!--Same nav as index/homepage-->
 <nav>
 	<ul>
 		<li><a href="index.html">Home</a></li>
@@ -25,6 +26,8 @@
 		<input type = "text" name="First name"/></p>
 	<p>Last name 
 		<input type = "text" name="Last name"/></p>
+		
+	<!--Address info-->
 	<fieldset>
 		<legend>Address Information</legend>
 		<label><p>Address 1
@@ -92,13 +95,41 @@
 			<input type = "text" name="Zip Code"/></p></label>
 	</fieldset>
 	
+	<!--Personal info-->
 	<fieldset>
 		<legend>Personal Information</legend>
 		<label><p>Phone Number
-			<input type = "number" name="Phone"/></p></label>
-		
+			<input type = "text" name="Phone"/></p></label>
+		<label><p>Email
+			<input type = "email" name="Email"/></p></label>
+		<label><p>Gender
+			<input type = "radio" name="gender" value="male"/>Male
+			<input type = "radio" name="gender" value="female">Female</p></label>
+		<label><p>Favorite Colors (Choose 5)</p>
+			<input type = "checkbox" name="color" value="blue"/>Blue
+			<input type = "checkbox" name="color" value="red"/>Red
+			<input type = "checkbox" name="color" value="green"/>Green
+			<input type = "checkbox" name="color" value="purple"/>Purple
+			<input type = "checkbox" name="color" value="gray"/>Gray
+			<input type = "checkbox" name="color" value="black"/>Black
+			<input type = "checkbox" name="color" value="white"/>White
+			</label>
 	</fieldset>
 	
+	<fieldset>
+		<legend>Credit Card Information</legend>
+		<img src="images/american_express.gif" alt="american express logo" width="50">
+		<img src="images/mastercard1979.gif" alt="mastercard logo" width="50">
+		<img src="images/visa.gif" alt="visa logo">
+		
+		<label><p>Cardholder's Name
+			<input type = "text" name="cardholder"/></p></label>
+		<label><p>Credit Card Number
+			<input type = "text" name="card number"/></p></label>
+		<label><p>Expiration Date
+			<input type = "month" name="exp date"/></p></label>
+		
+	</fieldset>
 	
 </form>
 

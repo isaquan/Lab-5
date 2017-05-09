@@ -127,3 +127,7 @@ span{
 form{
 	clear: both;
 }
+
+.cards img{
+	margin: 3px;
+}
