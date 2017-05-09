@@ -2,35 +2,39 @@
 /* CSS Document */
 
 *{
-	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"
+	font-family: 'Oxygen', sans-serif;
 }
 
 
 /*Navigation bar features*/
 nav{
-	float: left;
+	
 	
 }
 
 ul{
 	list-style-type: none;
-	margin-top: -20px;
+	margin-top: 0px;
+	
 	
 }
 
 li{
 	float: left;
 	display: block;
-	padding: 100px;
-	font-size: 2em;
+	padding: 2px;
+	font-size: .75em;
 	margin: 10px;
+	margin-bottom: 30px;
 	
 }
 
 a:link{
 	text-decoration: none;
 	color: gray;
-	padding: 30px;
+	padding: 10px;
+	margin: 30px;
+	margin-bottom: 50px;
 }
 
 a:hover{
@@ -40,21 +44,22 @@ a:hover{
 /*---END OF NAV BAR---*/
 
 h1{
-	font-size: 6em;
-	font-weight:bolder;
+	font-size: 2em;
+	font-weight:bold;
 	clear: both;
 }
 
 h2{
-	font-size: 5em;
-	margin-top: -70px;
+	font-size: 1.5em;
+	margin-top:-25px;
 	font-weight: 100;
 }
 
 th{
+	font-size: 12px;
 	text-align: left;
 	padding-left: 30px;
-	padding-right: 30px;
+	padding-right: 20px;
 }
 
 /*---START OF HOMEPAGE STYLING---*/
@@ -86,6 +91,7 @@ tr:nth-child(1){
 }
 
 td{
+	font-size: 12px;
 	border-left: 1px solid grey;
 	border-right: 1px solid grey;
 	padding: 7px;
@@ -98,7 +104,7 @@ td{
 
 .image img{
 	border: none;
-	width: 500px;
+	width: 150px;
 }
 
 .logo{
@@ -107,7 +113,7 @@ td{
 
 /*Makes logo size smaller*/
 .logo img{
-	width: 100px;
+	width: 50px;
 }
 
 /*Edits parenthesis in <th>*/
@@ -118,3 +124,6 @@ span{
 
 /*---START OF FORM STYLING---*/
 
+form{
+	clear: both;
+}
