@@ -2,6 +2,8 @@
 <html>
 <head>
 <link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+
 <meta charset="UTF-8">
 
 <title>Contact</title>
@@ -22,6 +24,9 @@
 </nav>
 
 <form>
+
+	<h1>Contact Information</h1>
+
 	<p>First name 
 		<input type = "text" name="First name"/></p>
 	<p>Last name 
@@ -116,11 +121,16 @@
 			</label>
 	</fieldset>
 	
+	<!--Card info-->
+	
+	
 	<fieldset>
-		<legend>Credit Card Information</legend>
-		<img src="images/american_express.gif" alt="american express logo" width="50">
-		<img src="images/mastercard1979.gif" alt="mastercard logo" width="50">
-		<img src="images/visa.gif" alt="visa logo">
+	<legend>Credit Card Information</legend>
+		<div class="cards">
+			<img src="images/american_express.gif" alt="american express logo">
+			<img src="images/mastercard1979.gif" alt="mastercard logo">
+			<img src="images/visa.gif" alt="visa logo">
+		</div>
 		
 		<label><p>Cardholder's Name
 			<input type = "text" name="cardholder"/></p></label>
@@ -128,8 +138,11 @@
 			<input type = "text" name="card number"/></p></label>
 		<label><p>Expiration Date
 			<input type = "month" name="exp date"/></p></label>
-		
 	</fieldset>
+	
+	<div class="submit">
+		<input type="image" src="images/submit.gif" alt="submit button">
+	</div>
 	
 </form>
 

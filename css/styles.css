@@ -126,8 +126,34 @@ span{
 
 form{
 	clear: both;
+	margin: 150px;
+	padding: 30px;
+	font-size: .75em;
 }
 
 .cards img{
-	margin: 3px;
+	margin: 1px;
+	margin-top: 10px;
+	height: 25px;
+}
+
+.submit input{
+	margin-top: 25px;
+	width: 100px;
+}
+
+/*Gives fieldset its background color and border*/
+fieldset {
+	background-color: lightgray;
+	border-color: gold;
+	border-width: 1px;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+legend{
+	font-weight: 600;
+	
+	
 }
