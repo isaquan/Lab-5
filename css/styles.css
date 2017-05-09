@@ -57,6 +57,7 @@ th{
 	padding-right: 30px;
 }
 
+/*---START OF HOMEPAGE STYLING---*/
 
 /*Adds background color to ever other table row*/
 tr:nth-child(even){
@@ -114,3 +115,6 @@ span{
 	font-weight: 100;
 	font-style: italic;
 }
+
+/*---START OF FORM STYLING---*/
+

@@ -1,0 +1,24 @@
+Last login: Tue May  2 12:46:24 on ttys000
+grc-germany:~ iquan$ cd Desktop
+grc-germany:Desktop iquan$ cd grc-338-03-L5-iquan
+grc-germany:grc-338-03-L5-iquan iquan$ git push
+Everything up-to-date
+grc-germany:grc-338-03-L5-iquan iquan$ git commit -am "Finalize details"
+[master 449fb25] Finalize details
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+grc-germany:grc-338-03-L5-iquan iquan$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 647 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/isaquan/Lab-5.git
+   8d4101d..449fb25  master -> master
+grc-germany:grc-338-03-L5-iquan iquan$ 
+
+
+
+
+
+

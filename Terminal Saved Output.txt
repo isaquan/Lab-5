@@ -1,0 +1,70 @@
+Last login: Tue May  2 12:09:52 on console
+grc-germany:~ iquan$ cd Desktop
+grc-germany:Desktop iquan$ mkdir grc-338-03-L5-iquan
+grc-germany:Desktop iquan$ cd grc-338-03-L5-iquan
+grc-germany:grc-338-03-L5-iquan iquan$ mkdir css
+grc-germany:grc-338-03-L5-iquan iquan$ mkdir images
+grc-germany:grc-338-03-L5-iquan iquan$ pwd
+/Users/iquan/Desktop/grc-338-03-L5-iquan
+grc-germany:grc-338-03-L5-iquan iquan$ git init
+Initialized empty Git repository in /Users/iquan/Desktop/grc-338-03-L5-iquan/.git/
+grc-germany:grc-338-03-L5-iquan iquan$ git add -A
+grc-germany:grc-338-03-L5-iquan iquan$ git commit -m "Add files"
+[master (root-commit) 5b894f6] Add files
+ 9 files changed, 13 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100644 images/.DS_Store
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100644 images/logo.gif
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-germany:grc-338-03-L5-iquan iquan$ git commit -am "Add images"
+[master 0bd7d19] Add images
+ 4 files changed, 99 insertions(+), 1 deletion(-)
+grc-germany:grc-338-03-L5-iquan iquan$ git commit -am "Stylized table and added nav bar"
+[master 889fc95] Stylized table and added nav bar
+ 2 files changed, 70 insertions(+), 14 deletions(-)
+grc-germany:grc-338-03-L5-iquan iquan$ git commit -am "Stylize nav bar"
+[master 8d4101d] Stylize nav bar
+ 2 files changed, 47 insertions(+), 8 deletions(-)
+grc-germany:grc-338-03-L5-iquan iquan$ git remote add origin https://github.com/isaquan/Lab-5.git
+grc-germany:grc-338-03-L5-iquan iquan$ git push -u origin master
+Counting objects: 31, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (31/31), 1.18 MiB | 1.86 MiB/s, done.
+Total 31 (delta 9), reused 0 (delta 0)
+remote: Resolving deltas: 100% (9/9), done.
+To https://github.com/isaquan/Lab-5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-germany:grc-338-03-L5-iquan iquan$ git log
+commit 8d4101da7fcb740ac680991177cd8fc1c45c0883
+Author: Isabel Quan <iquan@calpoly.edu>
+Date:   Tue May 2 14:39:15 2017 -0700
+
+    Stylize nav bar
+
+commit 889fc9518781d2d6a1849074f7904c81fd25f7cf
+Author: Isabel Quan <iquan@calpoly.edu>
+Date:   Tue May 2 14:08:30 2017 -0700
+
+    Stylized table and added nav bar
+
+commit 0bd7d19b112f466f1737bf6e85b594f888786c2b
+Author: Isabel Quan <iquan@calpoly.edu>
+Date:   Tue May 2 13:26:20 2017 -0700
+
+    Add images
+
+commit 5b894f60f57aae3aaf20517f5973570d33bb01a1
+Author: Isabel Quan <iquan@calpoly.edu>
+Date:   Tue May 2 12:53:22 2017 -0700
+
+    Add files
+
+[1]+  Stopped                 git log
+grc-germany:grc-338-03-L5-iquan iquan$ 
